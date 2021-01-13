@@ -1,7 +1,7 @@
 object DM1: TDM1
   OldCreateOrder = False
-  Left = 492
-  Top = 301
+  Left = 507
+  Top = 317
   Height = 291
   Width = 292
   object qry1: TADOQuery

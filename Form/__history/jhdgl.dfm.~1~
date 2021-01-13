@@ -1,9 +1,9 @@
 object jhdglfrm: Tjhdglfrm
   Left = 379
   Top = 167
+  Width = 901
+  Height = 480
   Caption = #36827#36135#21333
-  ClientHeight = 441
-  ClientWidth = 885
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,7 +19,7 @@ object jhdglfrm: Tjhdglfrm
     Left = 0
     Top = 0
     Width = 885
-    Height = 441
+    Height = 442
     Align = alClient
     Anchors = [akLeft, akRight, akBottom]
     Caption = 'Order Management'
@@ -32,10 +32,10 @@ object jhdglfrm: Tjhdglfrm
     TabOrder = 0
     DesignSize = (
       885
-      441)
+      442)
     object grp2: TGroupBox
       Left = 2
-      Top = 212
+      Top = 213
       Width = 881
       Height = 227
       Align = alBottom
@@ -60,73 +60,73 @@ object jhdglfrm: Tjhdglfrm
           item
             Expanded = False
             FieldName = 'ldrq'
-            Title.Caption = 'Order Date'
+            Title.Caption = #24405#21333#26085#26399
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'djbh'
-            Title.Caption = 'Order No.'
+            Title.Caption = #21333#25454#32534#21495
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'ghsmc'
-            Title.Caption = 'Supplier'
+            Title.Caption = #20379#36135#21830#21517#31216
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'jsr'
-            Title.Caption = 'Staff Name'
+            Title.Caption = #32463#25163#20154
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'spmc'
-            Title.Caption = 'Product'
+            Title.Caption = #21830#21697#21517#31216
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'spbm'
-            Title.Caption = 'Product No.'
+            Title.Caption = #21830#21697#32534#30721
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'gg'
-            Title.Caption = 'Unit'
+            Title.Caption = #35268#26684
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'xh'
-            Title.Caption = 'Type'
+            Title.Caption = #22411#21495
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'ckjg'
-            Title.Caption = 'Price'
+            Title.Caption = #21442#32771#20215#26684
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'sl'
-            Title.Caption = 'QTY'
+            Title.Caption = #25968#37327
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dw'
-            Title.Caption = 'Unit'
+            Title.Caption = #21333#20301
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'je'
-            Title.Caption = 'Amount'
+            Title.Caption = #37329#39069
             Visible = True
           end
           item
@@ -293,7 +293,7 @@ object jhdglfrm: Tjhdglfrm
       object RzLabel1: TRzLabel
         Left = 39
         Top = 31
-        Width = 30
+        Width = 33
         Height = 12
         Caption = 'Date:'
       end

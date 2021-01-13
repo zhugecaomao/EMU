@@ -3,7 +3,7 @@ object xstjfrm: Txstjfrm
   Top = 221
   Width = 952
   Height = 610
-  Caption = '????'
+  Caption = #38144#21806#32479#35745
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,19 +14,19 @@ object xstjfrm: Txstjfrm
   OnCreate = FormCreate
   DesignSize = (
     936
-    571)
+    572)
   PixelsPerInch = 96
   TextHeight = 13
   object lbl1: TLabel
     Left = 8
     Top = 3
-    Width = 60
-    Height = 19
-    Caption = '??????'
+    Width = 102
+    Height = 16
+    Caption = #38144#21806#32479#35745#20998#26512
     Font.Charset = ANSI_CHARSET
     Font.Color = clNavy
     Font.Height = -16
-    Font.Name = '??'
+    Font.Name = #23435#20307
     Font.Style = [fsBold]
     ParentFont = False
   end
@@ -36,11 +36,11 @@ object xstjfrm: Txstjfrm
     Width = 944
     Height = 73
     Anchors = [akLeft, akTop, akRight]
-    Caption = '????'
+    Caption = #32479#35745#26465#20214
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = '??'
+    Font.Name = #23435#20307
     Font.Style = []
     ParentFont = False
     TabOrder = 0
@@ -50,16 +50,16 @@ object xstjfrm: Txstjfrm
     object lbl2: TLabel
       Left = 95
       Top = 21
-      Width = 24
-      Height = 15
-      Caption = '???:'
+      Width = 42
+      Height = 12
+      Caption = #26102#38388#36215':'
     end
     object lbl3: TLabel
       Left = 94
       Top = 48
-      Width = 24
-      Height = 15
-      Caption = '???:'
+      Width = 42
+      Height = 12
+      Caption = #26102#38388#27490':'
     end
     object btn2: TButton
       Left = 807
@@ -67,7 +67,7 @@ object xstjfrm: Txstjfrm
       Width = 63
       Height = 25
       Anchors = [akRight, akBottom]
-      Caption = '????'
+      Caption = #24320#22987#32479#35745
       TabOrder = 0
       OnClick = btn2Click
     end
@@ -76,7 +76,7 @@ object xstjfrm: Txstjfrm
       Top = 19
       Width = 81
       Height = 17
-      Caption = '?????'
+      Caption = #25353#38144#21806#26085#26399
       TabOrder = 1
       OnClick = chk1Click
     end
@@ -85,7 +85,7 @@ object xstjfrm: Txstjfrm
       Top = 16
       Width = 81
       Height = 17
-      Caption = '?????'
+      Caption = #25353#36135#29289#21517#31216
       TabOrder = 2
       OnClick = chk2Click
     end
@@ -93,12 +93,12 @@ object xstjfrm: Txstjfrm
       Left = 134
       Top = 17
       Width = 75
-      Height = 23
-      CaptionTodayBtn = '??'
-      CaptionClearBtn = '??'
-      CaptionAM = '??'
-      CaptionPM = '??'
-      CaptionSet = '??'
+      Height = 20
+      CaptionTodayBtn = #20170#26085
+      CaptionClearBtn = #28165#31354
+      CaptionAM = #19978#21320
+      CaptionPM = #19979#21320
+      CaptionSet = #35774#32622
       EditType = etDate
       Enabled = False
       TabOrder = 3
@@ -107,12 +107,12 @@ object xstjfrm: Txstjfrm
       Left = 134
       Top = 45
       Width = 75
-      Height = 23
-      CaptionTodayBtn = '??'
-      CaptionClearBtn = '??'
-      CaptionAM = '??'
-      CaptionPM = '??'
-      CaptionSet = '??'
+      Height = 20
+      CaptionTodayBtn = #20170#26085
+      CaptionClearBtn = #28165#31354
+      CaptionAM = #19978#21320
+      CaptionPM = #19979#21320
+      CaptionSet = #35774#32622
       EditType = etDate
       Enabled = False
       TabOrder = 4
@@ -121,7 +121,7 @@ object xstjfrm: Txstjfrm
       Left = 328
       Top = 14
       Width = 120
-      Height = 23
+      Height = 20
       Enabled = False
       KeyField = 'spmc'
       ListField = 'spmc'
@@ -133,7 +133,7 @@ object xstjfrm: Txstjfrm
       Top = 43
       Width = 81
       Height = 17
-      Caption = '?????'
+      Caption = #36141#36135#26041#21517#31216
       TabOrder = 6
       OnClick = chk3Click
     end
@@ -141,7 +141,7 @@ object xstjfrm: Txstjfrm
       Left = 328
       Top = 41
       Width = 120
-      Height = 23
+      Height = 20
       Enabled = False
       KeyField = 'khmc'
       ListField = 'khmc'
@@ -153,7 +153,7 @@ object xstjfrm: Txstjfrm
       Top = 31
       Width = 81
       Height = 17
-      Caption = '?????'
+      Caption = #38144#21806#21592#21517#31216
       TabOrder = 8
       OnClick = chk4Click
     end
@@ -161,7 +161,7 @@ object xstjfrm: Txstjfrm
       Left = 541
       Top = 29
       Width = 83
-      Height = 23
+      Height = 20
       Enabled = False
       KeyField = 'ygmc'
       ListField = 'ygmc'
@@ -175,7 +175,7 @@ object xstjfrm: Txstjfrm
       Width = 63
       Height = 25
       Anchors = [akRight, akBottom]
-      Caption = '??'
+      Caption = #25171#21360
       TabOrder = 10
       OnClick = btn3Click
     end
@@ -186,7 +186,7 @@ object xstjfrm: Txstjfrm
     Width = 711
     Height = 479
     Anchors = [akLeft, akTop, akRight, akBottom]
-    Caption = '????'
+    Caption = #32479#35745#32467#26524
     TabOrder = 1
     object dbgrd1: TDBGrid
       Left = 2
@@ -207,103 +207,103 @@ object xstjfrm: Txstjfrm
         item
           Expanded = False
           FieldName = 'ldrq'
-          Title.Caption = '????'
+          Title.Caption = #24405#21333#26085#26399
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'djbm'
-          Title.Caption = '????'
+          Title.Caption = #21333#25454#32534#30721
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'khmc'
-          Title.Caption = '????'
+          Title.Caption = #23458#25143#21517#31216
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'khbm'
-          Title.Caption = '????'
+          Title.Caption = #23458#25143#32534#30721
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'jsr'
-          Title.Caption = '???(???)'
+          Title.Caption = #32463#25163#20154'('#38144#21806#21592')'
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'wlmc'
-          Title.Caption = '????'
+          Title.Caption = #21830#21697#21517#31216
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'wlbm'
-          Title.Caption = '????'
+          Title.Caption = #21830#21697#32534#30721
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'xh'
-          Title.Caption = '??'
+          Title.Caption = #22411#21495
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'gg'
-          Title.Caption = '??'
+          Title.Caption = #35268#26684
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'dj'
-          Title.Caption = '??'
+          Title.Caption = #21333#20215
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'sl'
-          Title.Caption = '??'
+          Title.Caption = #25968#37327
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'dw'
-          Title.Caption = '??'
+          Title.Caption = #21333#20301
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'YSJE'
-          Title.Caption = '????'
+          Title.Caption = #24212#25910#37329#39069
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'SSJE'
-          Title.Caption = '????'
+          Title.Caption = #23454#25910#37329#39069
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'YFK'
-          Title.Caption = '???'
+          Title.Caption = #24212#20184#27454
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'WFK'
-          Title.Caption = '???'
+          Title.Caption = #26410#20184#27454
           Visible = True
         end
         item
           Expanded = False
           FieldName = 'bz'
-          Title.Caption = '??'
+          Title.Caption = #22791#27880
           Visible = True
         end>
     end
@@ -314,12 +314,12 @@ object xstjfrm: Txstjfrm
     Width = 229
     Height = 478
     Anchors = [akTop, akRight, akBottom]
-    Caption = '????'
+    Caption = #32479#35745#31616#25253
     Color = clActiveBorder
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = '??'
+    Font.Name = #23435#20307
     Font.Style = []
     ParentColor = False
     ParentFont = False
@@ -333,7 +333,7 @@ object xstjfrm: Txstjfrm
       Width = 75
       Height = 25
       Anchors = [akRight, akBottom]
-      Caption = '??'
+      Caption = #20851#38381
       TabOrder = 0
       OnClick = btn1Click
     end
@@ -342,42 +342,42 @@ object xstjfrm: Txstjfrm
       Top = 16
       Width = 201
       Height = 137
-      Caption = '????:'
+      Caption = #38144#21806#32479#35745':'
       TabOrder = 1
       object lbl4: TLabel
         Left = 64
         Top = 44
-        Width = 38
-        Height = 15
-        Caption = '?????:'
+        Width = 66
+        Height = 12
+        Caption = #24635#38144#21806#25968#37327':'
       end
       object lbl5: TLabel
         Left = 64
         Top = 65
-        Width = 39
-        Height = 15
-        Caption = '???(?):'
+        Width = 66
+        Height = 12
+        Caption = #24635#37329#39069'('#20803'):'
       end
       object lbl6: TLabel
         Left = 40
         Top = 88
-        Width = 53
-        Height = 15
-        Caption = '?????(?):'
+        Width = 90
+        Height = 12
+        Caption = #24635#24050#20184#37329#39069'('#20803'):'
       end
       object lbl7: TLabel
         Left = 40
         Top = 112
-        Width = 53
-        Height = 15
-        Caption = '?????(?):'
+        Width = 90
+        Height = 12
+        Caption = #24635#27424#20184#37329#39069'('#20803'):'
       end
       object lbl8: TLabel
         Left = 64
         Top = 22
-        Width = 38
-        Height = 15
-        Caption = '?????:'
+        Width = 66
+        Height = 12
+        Caption = #38144#21806#21592#21517#31216':'
       end
       object edt1: TEdit
         Left = 134
@@ -433,7 +433,7 @@ object xstjfrm: Txstjfrm
         BorderStyle = bsNone
         Color = clGradientActiveCaption
         TabOrder = 4
-        Text = '?'
+        Text = #26080
       end
     end
     object grp5: TGroupBox
@@ -441,35 +441,35 @@ object xstjfrm: Txstjfrm
       Top = 160
       Width = 201
       Height = 105
-      Caption = '????:'
+      Caption = #38144#21806#25552#25104':'
       TabOrder = 2
       object lbl9: TLabel
         Left = 41
         Top = 19
-        Width = 53
-        Height = 15
-        Caption = '????(??):'
+        Width = 90
+        Height = 12
+        Caption = #38144#21806#20219#21153'('#19975#20803'):'
       end
       object lbl10: TLabel
         Left = 59
         Top = 62
-        Width = 50
-        Height = 15
-        Caption = '????(%):'
+        Width = 72
+        Height = 12
+        Caption = #25552#25104#27604#20363'(%):'
       end
       object lbl11: TLabel
         Left = 53
         Top = 84
-        Width = 46
-        Height = 15
-        Caption = '????(?):'
+        Width = 78
+        Height = 12
+        Caption = #25552#25104#37329#39069'('#20803'):'
       end
       object lbl12: TLabel
         Left = 5
         Top = 39
-        Width = 74
-        Height = 15
-        Caption = '????????(?):'
+        Width = 126
+        Height = 12
+        Caption = #36229#36807#38144#21806#20219#21153#37329#39069'('#20803'):'
       end
       object edt5: TEdit
         Left = 134
@@ -521,35 +521,35 @@ object xstjfrm: Txstjfrm
       Top = 269
       Width = 202
       Height = 105
-      Caption = '??????:'
+      Caption = #39640#20110#24213#20215#21033#28070':'
       TabOrder = 3
       object lbl13: TLabel
         Left = 16
         Top = 24
-        Width = 67
-        Height = 15
-        Caption = '???????(?):'
+        Width = 114
+        Height = 12
+        Caption = #39640#20110#24213#20215#24635#37329#39069'('#20803'):'
       end
       object lbl14: TLabel
         Left = 52
         Top = 43
-        Width = 57
-        Height = 15
-        Caption = '5%???(?):'
+        Width = 78
+        Height = 12
+        Caption = '5%'#20869#37329#39069'('#20803'):'
       end
       object lbl15: TLabel
         Left = 58
         Top = 62
-        Width = 50
-        Height = 15
-        Caption = '????(%):'
+        Width = 72
+        Height = 12
+        Caption = #25552#25104#27604#20363'(%):'
       end
       object lbl16: TLabel
         Left = 52
         Top = 82
-        Width = 46
-        Height = 15
-        Caption = '????(?):'
+        Width = 78
+        Height = 12
+        Caption = #25552#25104#37329#39069'('#20803'):'
       end
       object edt10: TEdit
         Left = 135
@@ -597,21 +597,21 @@ object xstjfrm: Txstjfrm
       Top = 377
       Width = 201
       Height = 58
-      Caption = '??:'
+      Caption = #21512#35745':'
       TabOrder = 4
       object lbl17: TLabel
         Left = 42
         Top = 33
-        Width = 53
-        Height = 15
-        Caption = '?????(?):'
+        Width = 90
+        Height = 12
+        Caption = #25552#25104#24635#37329#39069'('#20803'):'
       end
       object lbl18: TLabel
         Left = 67
         Top = 15
-        Width = 39
-        Height = 15
-        Caption = '???(?):'
+        Width = 66
+        Height = 12
+        Caption = #24635#21033#28070'('#20803'):'
       end
       object edt14: TEdit
         Left = 135

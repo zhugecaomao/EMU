@@ -3,7 +3,7 @@ object supplierfrm: Tsupplierfrm
   Top = 212
   Width = 696
   Height = 480
-  Caption = '???????'
+  Caption = #20379#36135#21830#20449#24687#31649#29702
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,23 +19,23 @@ object supplierfrm: Tsupplierfrm
     Left = 0
     Top = 0
     Width = 680
-    Height = 441
+    Height = 442
     Align = alClient
     Anchors = [akLeft, akRight, akBottom]
-    Caption = '???????'
+    Caption = #20379#36135#21830#20449#24687#31649#29702
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = '??'
+    Font.Name = #23435#20307
     Font.Style = []
     ParentFont = False
     TabOrder = 0
     DesignSize = (
       680
-      441)
+      442)
     object grp2: TGroupBox
       Left = 2
-      Top = 236
+      Top = 237
       Width = 676
       Height = 203
       Align = alBottom
@@ -43,106 +43,106 @@ object supplierfrm: Tsupplierfrm
       TabOrder = 0
       object dbgrd1: TDBGrid
         Left = 2
-        Top = 17
+        Top = 14
         Width = 672
-        Height = 184
+        Height = 187
         Align = alClient
         DataSource = DM1.ds4
         TabOrder = 0
         TitleFont.Charset = ANSI_CHARSET
         TitleFont.Color = clWindowText
         TitleFont.Height = -12
-        TitleFont.Name = '??'
+        TitleFont.Name = #23435#20307
         TitleFont.Style = []
         Columns = <
           item
             Expanded = False
             FieldName = 'ghsbm'
-            Title.Caption = '?????'
+            Title.Caption = #20379#36135#21830#32534#30721
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'ghsmc'
-            Title.Caption = '?????'
+            Title.Caption = #20379#36135#21830#21517#31216
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'pyjm'
-            Title.Caption = '????'
+            Title.Caption = #25340#38899#31616#30721
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'lxr'
-            Title.Caption = '???'
+            Title.Caption = #32852#31995#20154
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dh'
-            Title.Caption = '??'
+            Title.Caption = #30005#35805
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'yb'
-            Title.Caption = '??'
+            Title.Caption = #37038#32534
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dz'
-            Title.Caption = '??'
+            Title.Caption = #22320#22336
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'yhzh'
-            Title.Caption = '????'
+            Title.Caption = #38134#34892#36134#21495
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'khyh'
-            Title.Caption = '????'
+            Title.Caption = #24320#25143#38134#34892
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'xyd'
-            Title.Caption = '???'
+            Title.Caption = #20449#35465#24230
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dzyj'
-            Title.Caption = '????'
+            Title.Caption = #30005#23376#37038#20214
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'cz'
-            Title.Caption = '??'
+            Title.Caption = #20256#30495
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'qcys'
-            Title.Caption = '????'
+            Title.Caption = #26399#21021#24212#25910
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'qcyf'
-            Title.Caption = '????'
+            Title.Caption = #26399#21021#24212#20184
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'bz'
-            Title.Caption = '??'
+            Title.Caption = #22791#27880
             Visible = True
           end>
       end
@@ -153,14 +153,14 @@ object supplierfrm: Tsupplierfrm
       Width = 675
       Height = 46
       Anchors = [akLeft, akTop, akRight]
-      Caption = '????'
+      Caption = #25805#20316#23548#33322
       TabOrder = 1
       object RzToolbarButton1: TRzToolbarButton
         Left = 607
         Top = 14
         Width = 55
         Height = 27
-        Caption = '??'
+        Caption = #25171#21360
         OnClick = RzToolbarButton1Click
         HotNumGlyphs = 0
       end
@@ -171,16 +171,16 @@ object supplierfrm: Tsupplierfrm
         Height = 26
         DataSource = DM1.ds4
         Hints.Strings = (
-          '???'
-          '???'
-          '???'
-          '???'
-          '??'
-          '??'
-          '??'
-          '??'
-          '??'
-          '??')
+          #35760#24405#39318
+          #19978#19968#26465
+          #19979#19968#26465
+          #35760#24405#23614
+          #25554#20837
+          #21024#38500
+          #32534#36753
+          #25552#20132
+          #21462#28040
+          #21047#26032)
         BorderOuter = fsNone
         Color = clInactiveBorder
         Ctl3D = True
@@ -196,104 +196,104 @@ object supplierfrm: Tsupplierfrm
       Width = 675
       Height = 185
       Anchors = [akLeft, akTop, akRight]
-      Caption = '????'
+      Caption = #20449#24687#24405#20837
       TabOrder = 2
       object RzLabel1: TRzLabel
         Left = 16
         Top = 25
-        Width = 38
-        Height = 15
-        Caption = '?????:'
+        Width = 66
+        Height = 12
+        Caption = #20379#36135#21830#32534#30721':'
       end
       object RzLabel2: TRzLabel
         Left = 16
         Top = 47
-        Width = 38
-        Height = 15
-        Caption = '?????:'
+        Width = 66
+        Height = 12
+        Caption = #20379#36135#21830#21517#31216':'
       end
       object RzLabel3: TRzLabel
         Left = 22
         Top = 69
-        Width = 31
-        Height = 15
-        Caption = '????:'
+        Width = 54
+        Height = 12
+        Caption = #25340#38899#31616#30721':'
       end
       object RzLabel4: TRzLabel
         Left = 28
         Top = 91
-        Width = 24
-        Height = 15
-        Caption = '???:'
+        Width = 42
+        Height = 12
+        Caption = #32852#31995#20154':'
       end
       object RzLabel5: TRzLabel
         Left = 34
         Top = 113
-        Width = 17
-        Height = 15
-        Caption = '??:'
+        Width = 30
+        Height = 12
+        Caption = #30005#35805':'
       end
       object RzLabel6: TRzLabel
         Left = 34
         Top = 135
-        Width = 17
-        Height = 15
-        Caption = '??:'
+        Width = 30
+        Height = 12
+        Caption = #37038#32534':'
       end
       object RzLabel8: TRzLabel
         Left = 278
         Top = 27
-        Width = 17
-        Height = 15
-        Caption = '??:'
+        Width = 30
+        Height = 12
+        Caption = #22320#22336':'
       end
       object RzLabel9: TRzLabel
         Left = 266
         Top = 53
-        Width = 31
-        Height = 15
-        Caption = '????:'
+        Width = 54
+        Height = 12
+        Caption = #38134#34892#36134#21495':'
       end
       object RzLabel10: TRzLabel
         Left = 266
         Top = 79
-        Width = 31
-        Height = 15
-        Caption = '????:'
+        Width = 54
+        Height = 12
+        Caption = #24320#25143#38134#34892':'
       end
       object RzLabel11: TRzLabel
         Left = 272
         Top = 106
-        Width = 24
-        Height = 15
-        Caption = '???:'
+        Width = 42
+        Height = 12
+        Caption = #20449#35465#24230':'
       end
       object RzLabel12: TRzLabel
         Left = 266
         Top = 132
-        Width = 31
-        Height = 15
-        Caption = '????:'
+        Width = 54
+        Height = 12
+        Caption = #30005#23376#37038#20214':'
       end
       object RzLabel13: TRzLabel
         Left = 278
         Top = 158
-        Width = 17
-        Height = 15
-        Caption = '??:'
+        Width = 30
+        Height = 12
+        Caption = #22791#27880':'
       end
       object RzLabel14: TRzLabel
         Left = 34
         Top = 157
-        Width = 17
-        Height = 15
-        Caption = '??:'
+        Width = 30
+        Height = 12
+        Caption = #20256#30495':'
       end
       object RzDBEdit1: TRzDBEdit
         Left = 84
         Top = 21
         Width = 57
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'ghsbm'
         TabOrder = 0
@@ -302,7 +302,7 @@ object supplierfrm: Tsupplierfrm
         Left = 84
         Top = 44
         Width = 69
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'ghsmc'
         TabOrder = 1
@@ -311,7 +311,7 @@ object supplierfrm: Tsupplierfrm
         Left = 84
         Top = 66
         Width = 57
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'pyjm'
         TabOrder = 2
@@ -320,7 +320,7 @@ object supplierfrm: Tsupplierfrm
         Left = 84
         Top = 89
         Width = 73
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'lxr'
         TabOrder = 3
@@ -329,7 +329,7 @@ object supplierfrm: Tsupplierfrm
         Left = 84
         Top = 112
         Width = 121
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'dh'
         TabOrder = 4
@@ -338,7 +338,7 @@ object supplierfrm: Tsupplierfrm
         Left = 84
         Top = 134
         Width = 57
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'yb'
         TabOrder = 5
@@ -347,7 +347,7 @@ object supplierfrm: Tsupplierfrm
         Left = 328
         Top = 22
         Width = 185
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'dz'
         TabOrder = 6
@@ -356,7 +356,7 @@ object supplierfrm: Tsupplierfrm
         Left = 328
         Top = 48
         Width = 121
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'yhzh'
         TabOrder = 7
@@ -365,7 +365,7 @@ object supplierfrm: Tsupplierfrm
         Left = 328
         Top = 75
         Width = 121
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'khyh'
         TabOrder = 8
@@ -374,7 +374,7 @@ object supplierfrm: Tsupplierfrm
         Left = 328
         Top = 101
         Width = 41
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'xyd'
         TabOrder = 9
@@ -383,7 +383,7 @@ object supplierfrm: Tsupplierfrm
         Left = 328
         Top = 128
         Width = 97
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'dzyj'
         TabOrder = 10
@@ -392,7 +392,7 @@ object supplierfrm: Tsupplierfrm
         Left = 327
         Top = 154
         Width = 193
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'bz'
         TabOrder = 11
@@ -401,7 +401,7 @@ object supplierfrm: Tsupplierfrm
         Left = 84
         Top = 157
         Width = 121
-        Height = 23
+        Height = 20
         DataSource = DM1.ds4
         DataField = 'cz'
         TabOrder = 12
@@ -414,7 +414,7 @@ object supplierfrm: Tsupplierfrm
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
     PreviewOptions.Zoom = 1.000000000000000000
-    PrintOptions.Printer = '??'
+    PrintOptions.Printer = #39044#35774
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 38751.578703321800000000
     ReportOptions.LastChange = 38751.581555914360000000
@@ -530,7 +530,7 @@ object supplierfrm: Tsupplierfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            '???')
+            #32514#26663#24447)
           ParentFont = False
           Style = 'Header'
         end
@@ -544,7 +544,7 @@ object supplierfrm: Tsupplierfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            '???')
+            #37722#23943#1054)
           ParentFont = False
           Style = 'Header'
         end
@@ -572,7 +572,7 @@ object supplierfrm: Tsupplierfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            '???')
+            #37922#20291#30269)
           ParentFont = False
           Style = 'Header'
         end
@@ -586,7 +586,7 @@ object supplierfrm: Tsupplierfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            '???')
+            #28028#29365#28257)
           ParentFont = False
           Style = 'Header'
         end
@@ -600,7 +600,7 @@ object supplierfrm: Tsupplierfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            '???')
+            #37734#26495#28483)
           ParentFont = False
           Style = 'Header'
         end
@@ -614,7 +614,7 @@ object supplierfrm: Tsupplierfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            '??????')
+            #37922#38747#29913#38317#57787#27426)
           ParentFont = False
           Style = 'Header'
         end
@@ -628,7 +628,7 @@ object supplierfrm: Tsupplierfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            '???')
+            #28598#22248#25950)
           ParentFont = False
           Style = 'Header'
         end
@@ -826,7 +826,7 @@ object supplierfrm: Tsupplierfrm
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -27
-        Font.Name = '??'
+        Font.Name = #23435#20307
         Font.Style = [fsBold, fsUnderline]
         HAlign = haCenter
         Memo.UTF8 = (

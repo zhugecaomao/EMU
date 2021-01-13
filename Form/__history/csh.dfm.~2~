@@ -113,9 +113,9 @@ object cshfrm: Tcshfrm
     object chk6: TCheckBox
       Left = 136
       Top = 51
-      Width = 124
+      Width = 77
       Height = 17
-      Caption = 'Product Category'
+      Caption = #21830#21697#31867#21035
       TabOrder = 5
     end
     object chk7: TCheckBox

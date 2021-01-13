@@ -6,7 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Menus, ExtCtrls, RzPanel, RzSplit, RzGroupBar, RzTabs, RzStatus,
   RzButton, ImgList, Buttons, StdCtrls, RzBckgnd, jpeg,
-  RzLabel, frxClass, frxDBSet, XPMan;
+  RzLabel, frxClass, frxDBSet;
 
 type
   Tmainfrm = class(TForm)
@@ -133,7 +133,6 @@ type
     lbl15: TLabel;
     frxReport1: TfrxReport;
     frxReport2: TfrxReport;
-    XPManifest1: TXPManifest;
     procedure x_quitClick(Sender: TObject);
     procedure RzToolButton6Click(Sender: TObject);
     procedure pnl1UnDock(Sender: TObject; Client: TControl;

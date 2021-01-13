@@ -247,8 +247,8 @@ object mainfrm: Tmainfrm
           object RzLabel8: TRzLabel
             Left = 5
             Top = 440
-            Width = 510
-            Height = -101
+            Width = 518
+            Height = -93
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -259,8 +259,8 @@ object mainfrm: Tmainfrm
           object lbl14: TLabel
             Left = 0
             Top = 274
-            Width = 518
-            Height = -122
+            Width = 526
+            Height = -114
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -271,7 +271,7 @@ object mainfrm: Tmainfrm
           object lbl15: TLabel
             Left = 8
             Top = 160
-            Width = 502
+            Width = 510
             Height = 57
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight]
@@ -309,8 +309,8 @@ object mainfrm: Tmainfrm
           object RzLabel7: TRzLabel
             Left = 5
             Top = 440
-            Width = 510
-            Height = -101
+            Width = 518
+            Height = -93
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -321,8 +321,8 @@ object mainfrm: Tmainfrm
           object lbl12: TLabel
             Left = 0
             Top = 274
-            Width = 518
-            Height = -130
+            Width = 526
+            Height = -122
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -333,7 +333,7 @@ object mainfrm: Tmainfrm
           object lbl13: TLabel
             Left = 8
             Top = 160
-            Width = 502
+            Width = 510
             Height = 49
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight]
@@ -371,8 +371,8 @@ object mainfrm: Tmainfrm
           object RzLabel6: TRzLabel
             Left = 5
             Top = 440
-            Width = 510
-            Height = -101
+            Width = 518
+            Height = -93
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -383,8 +383,8 @@ object mainfrm: Tmainfrm
           object lbl10: TLabel
             Left = 0
             Top = 274
-            Width = 518
-            Height = -130
+            Width = 526
+            Height = -122
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -395,7 +395,7 @@ object mainfrm: Tmainfrm
           object lbl11: TLabel
             Left = 8
             Top = 160
-            Width = 502
+            Width = 510
             Height = 57
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight]
@@ -433,8 +433,8 @@ object mainfrm: Tmainfrm
           object RzLabel5: TRzLabel
             Left = 5
             Top = 440
-            Width = 510
-            Height = -101
+            Width = 518
+            Height = -93
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -445,8 +445,8 @@ object mainfrm: Tmainfrm
           object lbl8: TLabel
             Left = 0
             Top = 274
-            Width = 518
-            Height = -130
+            Width = 526
+            Height = -122
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -457,7 +457,7 @@ object mainfrm: Tmainfrm
           object lbl9: TLabel
             Left = 8
             Top = 160
-            Width = 502
+            Width = 510
             Height = 57
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight]
@@ -495,8 +495,8 @@ object mainfrm: Tmainfrm
           object RzLabel4: TRzLabel
             Left = 5
             Top = 440
-            Width = 510
-            Height = -101
+            Width = 518
+            Height = -93
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -507,8 +507,8 @@ object mainfrm: Tmainfrm
           object lbl6: TLabel
             Left = 0
             Top = 274
-            Width = 518
-            Height = -130
+            Width = 526
+            Height = -122
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -519,7 +519,7 @@ object mainfrm: Tmainfrm
           object lbl7: TLabel
             Left = 8
             Top = 160
-            Width = 502
+            Width = 510
             Height = 57
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight]
@@ -557,8 +557,8 @@ object mainfrm: Tmainfrm
           object RzLabel3: TRzLabel
             Left = 5
             Top = 440
-            Width = 510
-            Height = -101
+            Width = 518
+            Height = -93
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -569,8 +569,8 @@ object mainfrm: Tmainfrm
           object lbl4: TLabel
             Left = 0
             Top = 274
-            Width = 518
-            Height = -130
+            Width = 526
+            Height = -122
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -581,7 +581,7 @@ object mainfrm: Tmainfrm
           object lbl5: TLabel
             Left = 8
             Top = 160
-            Width = 502
+            Width = 510
             Height = 57
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight]
@@ -619,8 +619,8 @@ object mainfrm: Tmainfrm
           object RzLabel2: TRzLabel
             Left = 5
             Top = 440
-            Width = 578
-            Height = -29
+            Width = 586
+            Height = -21
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -631,8 +631,8 @@ object mainfrm: Tmainfrm
           object lbl2: TLabel
             Left = 0
             Top = 274
-            Width = 586
-            Height = -50
+            Width = 594
+            Height = -42
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -643,7 +643,7 @@ object mainfrm: Tmainfrm
           object lbl3: TLabel
             Left = 8
             Top = 160
-            Width = 570
+            Width = 578
             Height = 57
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight]
@@ -681,8 +681,8 @@ object mainfrm: Tmainfrm
           object lbl1: TLabel
             Left = 8
             Top = 160
-            Width = 502
-            Height = -96
+            Width = 510
+            Height = -88
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -699,8 +699,8 @@ object mainfrm: Tmainfrm
           object Label1: TLabel
             Left = 0
             Top = 274
-            Width = 518
-            Height = -98
+            Width = 526
+            Height = -90
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -711,8 +711,8 @@ object mainfrm: Tmainfrm
           object RzLabel1: TRzLabel
             Left = 5
             Top = 440
-            Width = 510
-            Height = -101
+            Width = 518
+            Height = -93
             Alignment = taCenter
             Anchors = [akLeft, akTop, akRight, akBottom]
             AutoSize = False
@@ -1072,7 +1072,7 @@ object mainfrm: Tmainfrm
     Left = 728
     Top = 32
     Bitmap = {
-      494C01010E000F001C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010E000F00140010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000004000000001002000000000000040
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000CC996600CC9966000000000000000000000000000000
@@ -1611,7 +1611,7 @@ object mainfrm: Tmainfrm
     Left = 760
     Top = 32
     Bitmap = {
-      494C0101310036001C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010131003600140010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       000000000000360000002800000040000000D0000000010020000000000000D0
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
