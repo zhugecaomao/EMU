@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ExtCtrls, DBCtrls, Grids, DBGrids, RzDBNav, Mask,
-  RzEdit, RzDBEdit, RzLabel, RzPanel, WinSkinData, Buttons, frxClass,
+  RzEdit, RzDBEdit, RzLabel, RzPanel, Buttons, frxClass,
   frxDBSet, RzButton;
 
 type
@@ -71,7 +71,7 @@ var
   path:string;
 begin
   path:=extractfilepath(application.ExeName)+'MDB\JXCGL.mdb';
-  dm1.qry2.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Persist Security Info=False';
+  dm1.qry2.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Jet OLEDB:Database Password=519110;Persist Security Info=False';
   DM1.qry2.SQL.Clear;
   dm1.qry2.SQL.Add('select * from ygzl ');
   dm1.qry2.Active:=True;

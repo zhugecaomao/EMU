@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Menus, ExtCtrls, RzPanel, RzSplit, RzGroupBar, RzTabs, RzStatus,
-  RzButton, ImgList, WinSkinData, Buttons, StdCtrls, RzBckgnd, jpeg,
+  RzButton, ImgList, Buttons, StdCtrls, RzBckgnd, jpeg,
   RzLabel, frxClass, frxDBSet, XPMan;
 
 type
@@ -63,7 +63,6 @@ type
     RzStatusPane1: TRzStatusPane;
     TabSheet2: TRzTabSheet;
     TabSheet3: TRzTabSheet;
-    SkinData1: TSkinData;
     SpeedButton1: TSpeedButton;
     pnl1: TPanel;
     SpeedButton2: TSpeedButton;
@@ -492,11 +491,6 @@ end;
 procedure Tmainfrm.RzToolButton7Click(Sender: TObject);
 begin
   aboutClick(Self);
-//Change Skin cancel first
-//  if SkinData1.Active  then
-//     SkinData1.Active:=false
-//  else
-//     SkinData1.Active:=True;
 end;
 
 procedure Tmainfrm.SpeedButton13Click(Sender: TObject);
@@ -710,7 +704,7 @@ var
   path:string;
 begin
   path:=extractfilepath(application.ExeName)+'MDB\JXCGL.mdb';
-  dm1.qry12.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Persist Security Info=False';
+  dm1.qry12.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Jet OLEDB:Database Password=519110;Persist Security Info=False';
   DM1.qry12.SQL.Clear;
   dm1.qry12.SQL.Add('select * from sn where id=:id_a');
   DM1.qry12.Parameters.ParamByName('id_a').value:='RH'+Trim(GetIdeSerialNumber())+'C';

@@ -3,7 +3,7 @@ object spzlglfrm: Tspzlglfrm
   Top = 182
   Width = 774
   Height = 480
-  Caption = #21830#21697#36164#26009#31649#29702
+  Caption = '??????'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,23 +19,23 @@ object spzlglfrm: Tspzlglfrm
     Left = 0
     Top = 0
     Width = 758
-    Height = 442
+    Height = 441
     Align = alClient
     Anchors = [akLeft, akRight, akBottom]
-    Caption = #21830#21697#36164#26009#31649#29702
+    Caption = '??????'
     Font.Charset = GB2312_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = []
     ParentFont = False
     TabOrder = 0
     DesignSize = (
       758
-      442)
+      441)
     object grp2: TGroupBox
       Left = 2
-      Top = 269
+      Top = 268
       Width = 754
       Height = 171
       Align = alBottom
@@ -52,97 +52,97 @@ object spzlglfrm: Tspzlglfrm
         TitleFont.Charset = GB2312_CHARSET
         TitleFont.Color = clWindowText
         TitleFont.Height = -12
-        TitleFont.Name = #23435#20307
+        TitleFont.Name = '??'
         TitleFont.Style = []
         Columns = <
           item
             Expanded = False
             FieldName = 'spbm'
-            Title.Caption = #21830#21697#32534#30721
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'spmc'
-            Title.Caption = #21830#21697#21517#31216
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'pyjm'
-            Title.Caption = #25340#38899#31616#30721
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'jc'
-            Title.Caption = #31616#31216
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'lb'
-            Title.Caption = #31867#21035
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'gg'
-            Title.Caption = #35268#26684
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'xh'
-            Title.Caption = #22411#21495
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dw'
-            Title.Caption = #21333#20301
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'ghs'
-            Title.Caption = #20379#36135#21830
+            Title.Caption = '???'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'cd'
-            Title.Caption = #20135#22320
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'bz'
-            Title.Caption = #22791#27880
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'jhjg'
-            Title.Caption = #36827#36135#20215#26684
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'xsdj'
-            Title.Caption = #38144#21806#20215#26684
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'kcsx'
-            Title.Caption = #24211#23384#19978#38480
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'kcxx'
-            Title.Caption = #24211#23384#19979#38480
+            Title.Caption = '????'
             Visible = True
           end>
       end
@@ -153,14 +153,14 @@ object spzlglfrm: Tspzlglfrm
       Width = 753
       Height = 48
       Anchors = [akLeft, akTop, akRight]
-      Caption = #25805#20316#23548#33322
+      Caption = '????'
       TabOrder = 1
       object RzToolbarButton1: TRzToolbarButton
         Left = 575
         Top = 16
         Width = 56
         Height = 27
-        Caption = #26597#35810
+        Caption = '??'
         OnClick = RzToolbarButton1Click
         HotNumGlyphs = 0
       end
@@ -169,7 +169,7 @@ object spzlglfrm: Tspzlglfrm
         Top = 16
         Width = 56
         Height = 27
-        Caption = #26174#31034#20840#37096
+        Caption = '????'
         OnClick = RzToolbarButton2Click
         HotNumGlyphs = 0
       end
@@ -178,7 +178,7 @@ object spzlglfrm: Tspzlglfrm
         Top = 16
         Width = 55
         Height = 27
-        Caption = #25171#21360
+        Caption = '??'
         OnClick = RzToolbarButton3Click
         HotNumGlyphs = 0
       end
@@ -189,16 +189,16 @@ object spzlglfrm: Tspzlglfrm
         Height = 27
         DataSource = DM1.ds7
         Hints.Strings = (
-          #35760#24405#39318
-          #19978#19968#26465
-          #19979#19968#26465
-          #35760#24405#23614
-          #25554#20837
-          #21024#38500
-          #32534#36753
-          #25552#20132
-          #21462#28040
-          #21047#26032)
+          '???'
+          '???'
+          '???'
+          '???'
+          '??'
+          '??'
+          '??'
+          '??'
+          '??'
+          '??')
         BorderOuter = fsNone
         Color = clInactiveBorder
         Ctl3D = True
@@ -214,157 +214,157 @@ object spzlglfrm: Tspzlglfrm
       Width = 753
       Height = 209
       Anchors = [akLeft, akTop, akRight]
-      Caption = #20449#24687#24405#20837
+      Caption = '????'
       TabOrder = 2
       object RzLabel2: TRzLabel
         Left = 15
         Top = 45
-        Width = 54
+        Width = 30
         Height = 12
-        Caption = #21830#21697#21517#31216':'
+        Caption = '????:'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel3: TRzLabel
         Left = 15
         Top = 68
-        Width = 54
+        Width = 30
         Height = 12
-        Caption = #25340#38899#31616#30721':'
+        Caption = '????:'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel4: TRzLabel
         Left = 27
         Top = 91
-        Width = 30
+        Width = 18
         Height = 12
-        Caption = #31616#31216':'
+        Caption = '??:'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel5: TRzLabel
         Left = 27
         Top = 115
-        Width = 30
+        Width = 18
         Height = 12
-        Caption = #31867#21035':'
+        Caption = '??:'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel6: TRzLabel
         Left = 27
         Top = 162
-        Width = 30
+        Width = 18
         Height = 12
-        Caption = #22411#21495':'
+        Caption = '??:'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel7: TRzLabel
         Left = 271
         Top = 22
-        Width = 30
+        Width = 18
         Height = 12
-        Caption = #21333#20301':'
+        Caption = '??:'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel8: TRzLabel
         Left = 271
         Top = 79
-        Width = 30
+        Width = 18
         Height = 12
-        Caption = #20135#22320':'
+        Caption = '??:'
       end
       object RzLabel9: TRzLabel
         Left = 271
         Top = 108
-        Width = 30
+        Width = 18
         Height = 12
-        Caption = #22791#27880':'
+        Caption = '??:'
       end
       object RzLabel10: TRzLabel
         Left = 259
         Top = 136
-        Width = 54
+        Width = 30
         Height = 12
-        Caption = #36827#36135#20215#26684':'
+        Caption = '????:'
       end
       object RzLabel11: TRzLabel
         Left = 259
         Top = 165
-        Width = 54
+        Width = 30
         Height = 12
-        Caption = #38144#21806#20215#26684':'
+        Caption = '????:'
       end
       object RzLabel14: TRzLabel
         Left = 24
         Top = 139
-        Width = 36
+        Width = 24
         Height = 12
-        Caption = #35268#26684' :'
+        Caption = '?? :'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel1: TRzLabel
         Left = 15
         Top = 21
-        Width = 54
+        Width = 30
         Height = 12
-        Caption = #21830#21697#32534#30721':'
+        Caption = '????:'
         Font.Charset = GB2312_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel12: TRzLabel
         Left = 265
         Top = 51
-        Width = 42
+        Width = 24
         Height = 12
-        Caption = #20379#36135#21830':'
+        Caption = '???:'
       end
       object lbl1: TLabel
         Left = 502
         Top = 13
-        Width = 240
+        Width = 156
         Height = 24
-        Caption = #27880#24847':'#21830#21697#21517#31216#19981#21487#20197#37325#22797','#22914#26524#26377#21516#21517#21487#20197#21152#13#10'     '#19968#20010#24207#21495#26469#21306#21035'. '#22914':'#30005#26426'_1,'#30005#26426'_2.'
+        Caption = '??:?????????,????????'#13#10'     ???????. ?:??_1,??_2.'
         Font.Charset = GB2312_CHARSET
         Font.Color = clRed
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
         Visible = False
@@ -505,7 +505,7 @@ object spzlglfrm: Tspzlglfrm
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
     PreviewOptions.Zoom = 1.000000000000000000
-    PrintOptions.Printer = #39044#35774
+    PrintOptions.Printer = '??'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 38751.586948622700000000
     ReportOptions.LastChange = 38754.446851041670000000
@@ -601,11 +601,11 @@ object spzlglfrm: Tspzlglfrm
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
           Font.Height = -27
-          Font.Name = #23435#20307
+          Font.Name = '??'
           Font.Style = [fsBold, fsUnderline]
           HAlign = haCenter
           Memo.UTF8 = (
-            #37727'? '#37725'? '#29863'? '#37826'? '#28103'? '#37805'?')
+            '?? ?? ?? ?? ?? ??')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -638,7 +638,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #32514#26667#29212)
+            '???')
           ParentFont = False
           Style = 'Header'
         end
@@ -652,7 +652,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #37727#21975#25639#37722#23943#1054)
+            '??????')
           ParentFont = False
           Style = 'Header'
         end
@@ -666,7 +666,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #32491#35826#22470)
+            '???')
           ParentFont = False
           Style = 'Header'
         end
@@ -680,7 +680,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #29785#21228#29304)
+            '???')
           ParentFont = False
           Style = 'Header'
         end
@@ -694,7 +694,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #37736#23338#24447)
+            '???')
           ParentFont = False
           Style = 'Header'
         end
@@ -708,7 +708,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #37719#26330#32133)
+            '???')
           ParentFont = False
           Style = 'Header'
         end
@@ -722,7 +722,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #28186#28060#25571#37727'?')
+            '?????')
           ParentFont = False
           Style = 'Header'
         end
@@ -736,7 +736,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #27996#1091#28276)
+            '???')
           ParentFont = False
           Style = 'Header'
         end
@@ -750,7 +750,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #26473#28060#25571#28000#38155#29304)
+            '??????')
           ParentFont = False
           Style = 'Header'
         end
@@ -764,7 +764,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #38335#8364#37726#57788#30078#28000'?')
+            '')
           ParentFont = False
           Style = 'Header'
         end
@@ -778,7 +778,7 @@ object spzlglfrm: Tspzlglfrm
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Memo.UTF8 = (
-            #28598#22248#25950)
+            '???')
           ParentFont = False
           Style = 'Header'
         end

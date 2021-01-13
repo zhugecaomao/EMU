@@ -88,19 +88,19 @@ begin
   dm1.qry4.Active:=false;
 
   path:=extractfilepath(application.ExeName)+'MDB\JXCGL.mdb';
-  dm1.qry7.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Persist Security Info=False';
+  dm1.qry7.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Jet OLEDB:Database Password=519110;Persist Security Info=False';
   DM1.qry7.SQL.Clear;
   dm1.qry7.SQL.Add('select * from spzl ');
   dm1.qry7.Active:=True;
-  dm1.qry5.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Persist Security Info=False';
+  dm1.qry5.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Jet OLEDB:Database Password=519110;Persist Security Info=False';
   DM1.qry5.SQL.Clear;
   dm1.qry5.SQL.Add('select * from splb ');
   dm1.qry5.Active:=True;
-  dm1.qry6.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Persist Security Info=False';
+  dm1.qry6.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Jet OLEDB:Database Password=519110;Persist Security Info=False';
   DM1.qry6.SQL.Clear;
   dm1.qry6.SQL.Add('select * from jldw ');
   dm1.qry6.Active:=True;
-  dm1.qry4.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Persist Security Info=False';
+  dm1.qry4.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+path+';Jet OLEDB:Database Password=519110;Persist Security Info=False';
   DM1.qry4.SQL.Clear;
   dm1.qry4.SQL.Add('select * from ghszl ');
   dm1.qry4.Active:=True;

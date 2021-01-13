@@ -3,7 +3,7 @@ object splbglfrm: Tsplbglfrm
   Top = 292
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = #21830#21697#31867#21035#31649#29702
+  Caption = '??????'
   ClientHeight = 300
   ClientWidth = 396
   Color = clBtnFace
@@ -24,11 +24,11 @@ object splbglfrm: Tsplbglfrm
     Height = 300
     Align = alClient
     Anchors = [akLeft, akRight, akBottom]
-    Caption = #21830#21697#31867#21035#31649#29702
+    Caption = '??????'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = []
     ParentFont = False
     TabOrder = 0
@@ -44,34 +44,34 @@ object splbglfrm: Tsplbglfrm
       TabOrder = 0
       object dbgrd1: TDBGrid
         Left = 2
-        Top = 14
+        Top = 17
         Width = 379
-        Height = 123
+        Height = 120
         Align = alClient
         DataSource = DM1.ds5
         TabOrder = 0
         TitleFont.Charset = ANSI_CHARSET
         TitleFont.Color = clWindowText
         TitleFont.Height = -12
-        TitleFont.Name = #23435#20307
+        TitleFont.Name = '??'
         TitleFont.Style = []
         Columns = <
           item
             Expanded = False
             FieldName = 'lbbm'
-            Title.Caption = #31867#21035#32534#30721
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'lbmc'
-            Title.Caption = #31867#21035#21517#31216
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'sm'
-            Title.Caption = #35828#26126
+            Title.Caption = '??'
             Visible = True
           end>
       end
@@ -82,7 +82,7 @@ object splbglfrm: Tsplbglfrm
       Width = 382
       Height = 45
       Anchors = [akLeft, akTop, akRight]
-      Caption = #25805#20316#23548#33322
+      Caption = '????'
       TabOrder = 1
       object RzDBNavigator1: TRzDBNavigator
         Left = 8
@@ -91,16 +91,16 @@ object splbglfrm: Tsplbglfrm
         Height = 27
         DataSource = DM1.ds5
         Hints.Strings = (
-          #35760#24405#39318
-          #19978#19968#26465
-          #19979#19968#26465
-          #35760#24405#23614
-          #25554#20837
-          #21024#38500
-          #32534#36753
-          #25552#20132
-          #21462#28040
-          #21047#26032)
+          '???'
+          '???'
+          '???'
+          '???'
+          '??'
+          '??'
+          '??'
+          '??'
+          '??'
+          '??')
         BorderOuter = fsNone
         Color = clInactiveBorder
         Ctl3D = True
@@ -116,38 +116,38 @@ object splbglfrm: Tsplbglfrm
       Width = 382
       Height = 88
       Anchors = [akLeft, akTop, akRight]
-      Caption = #20449#24687#24405#20837
+      Caption = '????'
       TabOrder = 2
       object RzLabel1: TRzLabel
         Left = 10
         Top = 25
-        Width = 54
-        Height = 12
-        Caption = #31867#21035#32534#30721':'
+        Width = 31
+        Height = 15
+        Caption = '????:'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel2: TRzLabel
         Left = 138
         Top = 24
-        Width = 54
-        Height = 12
-        Caption = #31867#21035#21517#31216':'
+        Width = 31
+        Height = 15
+        Caption = '????:'
       end
       object RzLabel3: TRzLabel
         Left = 19
         Top = 54
-        Width = 30
-        Height = 12
-        Caption = #35828#26126':'
+        Width = 17
+        Height = 15
+        Caption = '??:'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
@@ -155,7 +155,7 @@ object splbglfrm: Tsplbglfrm
         Left = 66
         Top = 19
         Width = 57
-        Height = 20
+        Height = 23
         DataSource = DM1.ds5
         DataField = 'lbbm'
         TabOrder = 0
@@ -164,7 +164,7 @@ object splbglfrm: Tsplbglfrm
         Left = 194
         Top = 20
         Width = 103
-        Height = 20
+        Height = 23
         DataSource = DM1.ds5
         DataField = 'lbmc'
         TabOrder = 1
@@ -173,7 +173,7 @@ object splbglfrm: Tsplbglfrm
         Left = 66
         Top = 49
         Width = 231
-        Height = 20
+        Height = 23
         DataSource = DM1.ds5
         DataField = 'sm'
         TabOrder = 2

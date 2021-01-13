@@ -2,7 +2,7 @@ object mlfxfrm: Tmlfxfrm
   Left = 384
   Top = 248
   BorderStyle = bsToolWindow
-  Caption = #27611#21033#20998#26512
+  Caption = '????'
   ClientHeight = 361
   ClientWidth = 688
   Color = clBtnFace
@@ -21,14 +21,14 @@ object mlfxfrm: Tmlfxfrm
   object lbl1: TLabel
     Left = 9
     Top = 9
-    Width = 68
-    Height = 16
-    Caption = #27611#21033#20998#26512
+    Width = 40
+    Height = 19
+    Caption = '????'
     Color = clBtnFace
     Font.Charset = ANSI_CHARSET
     Font.Color = clNavy
     Font.Height = -16
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
@@ -39,11 +39,11 @@ object mlfxfrm: Tmlfxfrm
     Width = 684
     Height = 49
     Anchors = [akLeft, akTop, akRight]
-    Caption = #26465#20214
+    Caption = '??'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = []
     ParentFont = False
     TabOrder = 0
@@ -53,27 +53,27 @@ object mlfxfrm: Tmlfxfrm
     object lbl2: TLabel
       Left = 14
       Top = 21
-      Width = 42
-      Height = 12
-      Caption = #26102#38388#36215':'
+      Width = 24
+      Height = 15
+      Caption = '???:'
     end
     object lbl3: TLabel
       Left = 157
       Top = 21
-      Width = 42
-      Height = 12
-      Caption = #26102#38388#27490':'
+      Width = 24
+      Height = 15
+      Caption = '???:'
     end
     object RzDateTimeEdit1: TRzDateTimeEdit
       Left = 55
       Top = 17
       Width = 98
-      Height = 20
-      CaptionTodayBtn = #20170#26085
-      CaptionClearBtn = #28165#31354
-      CaptionAM = #19978#21320
-      CaptionPM = #19979#21320
-      CaptionSet = #35774#32622
+      Height = 23
+      CaptionTodayBtn = '??'
+      CaptionClearBtn = '??'
+      CaptionAM = '??'
+      CaptionPM = '??'
+      CaptionSet = '??'
       EditType = etDate
       TabOrder = 0
     end
@@ -81,12 +81,12 @@ object mlfxfrm: Tmlfxfrm
       Left = 198
       Top = 17
       Width = 93
-      Height = 20
-      CaptionTodayBtn = #20170#26085
-      CaptionClearBtn = #28165#31354
-      CaptionAM = #19978#21320
-      CaptionPM = #19979#21320
-      CaptionSet = #35774#32622
+      Height = 23
+      CaptionTodayBtn = '??'
+      CaptionClearBtn = '??'
+      CaptionAM = '??'
+      CaptionPM = '??'
+      CaptionSet = '??'
       EditType = etDate
       TabOrder = 1
     end
@@ -96,7 +96,7 @@ object mlfxfrm: Tmlfxfrm
       Width = 75
       Height = 25
       Anchors = [akRight, akBottom]
-      Caption = #20998#26512
+      Caption = '??'
       TabOrder = 2
       OnClick = btn2Click
     end
@@ -105,14 +105,14 @@ object mlfxfrm: Tmlfxfrm
       Top = 20
       Width = 73
       Height = 17
-      Caption = #38144#21806#21592#65306
+      Caption = '???:'
       TabOrder = 3
     end
     object RzDBLookupComboBox1: TRzDBLookupComboBox
       Left = 377
       Top = 18
       Width = 81
-      Height = 20
+      Height = 23
       TabOrder = 4
     end
   end
@@ -122,61 +122,61 @@ object mlfxfrm: Tmlfxfrm
     Width = 683
     Height = 244
     Anchors = [akLeft, akTop, akRight, akBottom]
-    Caption = #20998#26512#32467#26524'('#20165#20379#21442#32771')'
+    Caption = '????(????)'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = []
     ParentFont = False
     TabOrder = 1
     object lbl11: TLabel
       Left = 20
       Top = 216
-      Width = 354
-      Height = 12
-      Caption = #35828#26126':'#27611#21033#28070'_1'#65309#38144#21806#21333#20013#23454#25910#37329#39069#65293#38144#21806#21333#20013#38144#21806#25968#37327#215#36827#36135#20215#26684
+      Width = 203
+      Height = 15
+      Caption = '??:???_1=????????-????????'#215'????'
     end
     object lbl12: TLabel
       Left = 21
       Top = 193
-      Width = 600
-      Height = 12
-      Caption = #27880#24847':'#30001#20110#21033#28070#30340#20998#26512#26377#24456#22810#30340#20154#20026#25805#20316#22240#32032','#25152#20197#27492#22788#21482#20570#31616#21333#30340#21033#28070#20998#26512','#20551#35774#36827#36135#19982#38144#21806#37117#26080#27424#27454#24773#20917#19979#32479#35745'!'
+      Width = 348
+      Height = 15
+      Caption = '??:?????????????????,?????????????,????????????????!'
     end
     object grp3: TGroupBox
       Left = 16
       Top = 24
       Width = 209
       Height = 153
-      Caption = #36827#36135
+      Caption = '??'
       TabOrder = 0
       object lbl4: TLabel
         Left = 18
         Top = 35
-        Width = 66
-        Height = 12
-        Caption = #36827#36135#24635#37329#39069':'
+        Width = 38
+        Height = 15
+        Caption = '?????:'
       end
       object lbl5: TLabel
         Left = 18
         Top = 73
-        Width = 66
-        Height = 12
-        Caption = #36827#36135#24050#20184#27454':'
+        Width = 38
+        Height = 15
+        Caption = '?????:'
       end
       object lbl6: TLabel
         Left = 18
         Top = 113
-        Width = 66
-        Height = 12
-        Caption = #36827#36135#26410#20184#27454':'
+        Width = 38
+        Height = 15
+        Caption = '?????:'
       end
       object edt1: TEdit
         Left = 87
         Top = 31
         Width = 96
-        Height = 20
+        Height = 23
         Color = clScrollBar
         TabOrder = 0
       end
@@ -184,7 +184,7 @@ object mlfxfrm: Tmlfxfrm
         Left = 87
         Top = 69
         Width = 96
-        Height = 20
+        Height = 23
         Color = clScrollBar
         TabOrder = 1
       end
@@ -192,7 +192,7 @@ object mlfxfrm: Tmlfxfrm
         Left = 87
         Top = 109
         Width = 96
-        Height = 20
+        Height = 23
         Color = clScrollBar
         TabOrder = 2
       end
@@ -202,34 +202,34 @@ object mlfxfrm: Tmlfxfrm
       Top = 24
       Width = 217
       Height = 153
-      Caption = #38144#21806
+      Caption = '??'
       TabOrder = 1
       object lbl7: TLabel
         Left = 27
         Top = 35
-        Width = 66
-        Height = 12
-        Caption = #38144#21806#24635#37329#39069':'
+        Width = 38
+        Height = 15
+        Caption = '?????:'
       end
       object lbl8: TLabel
         Left = 27
         Top = 73
-        Width = 66
-        Height = 12
-        Caption = #38144#21806#24050#20184#27454':'
+        Width = 38
+        Height = 15
+        Caption = '?????:'
       end
       object lbl9: TLabel
         Left = 27
         Top = 114
-        Width = 66
-        Height = 12
-        Caption = #38144#21806#26410#20184#27454':'
+        Width = 38
+        Height = 15
+        Caption = '?????:'
       end
       object edt4: TEdit
         Left = 93
         Top = 69
         Width = 102
-        Height = 20
+        Height = 23
         Color = clScrollBar
         TabOrder = 0
       end
@@ -237,7 +237,7 @@ object mlfxfrm: Tmlfxfrm
         Left = 93
         Top = 32
         Width = 102
-        Height = 20
+        Height = 23
         Color = clScrollBar
         TabOrder = 1
       end
@@ -245,7 +245,7 @@ object mlfxfrm: Tmlfxfrm
         Left = 93
         Top = 110
         Width = 102
-        Height = 20
+        Height = 23
         Color = clScrollBar
         TabOrder = 2
       end
@@ -255,20 +255,20 @@ object mlfxfrm: Tmlfxfrm
       Top = 24
       Width = 217
       Height = 153
-      Caption = #21033#28070
+      Caption = '??'
       TabOrder = 2
       object lbl10: TLabel
         Left = 21
         Top = 35
-        Width = 54
-        Height = 12
-        Caption = #27611#21033#28070'_1:'
+        Width = 38
+        Height = 15
+        Caption = '???_1:'
       end
       object edt7: TEdit
         Left = 77
         Top = 31
         Width = 102
-        Height = 20
+        Height = 23
         Color = clScrollBar
         TabOrder = 0
       end
@@ -280,11 +280,11 @@ object mlfxfrm: Tmlfxfrm
     Width = 75
     Height = 25
     Anchors = [akRight, akBottom]
-    Caption = #20851#38381
+    Caption = '??'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = []
     ParentFont = False
     TabOrder = 2

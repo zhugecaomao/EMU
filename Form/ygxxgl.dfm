@@ -1,9 +1,9 @@
 object ygxxglfrm: Tygxxglfrm
-  Left = 242
-  Top = 187
+  Left = 1030
+  Top = 222
   Width = 630
   Height = 450
-  Caption = #21592#24037#20449#24687#31649#29702
+  Caption = '??????'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,23 +19,23 @@ object ygxxglfrm: Tygxxglfrm
     Left = 0
     Top = 0
     Width = 614
-    Height = 412
+    Height = 411
     Align = alClient
     Anchors = [akLeft, akRight, akBottom]
-    Caption = #21592#24037#20449#24687#31649#29702
+    Caption = '??????'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = []
     ParentFont = False
     TabOrder = 0
     DesignSize = (
       614
-      412)
+      411)
     object grp2: TGroupBox
       Left = 2
-      Top = 189
+      Top = 188
       Width = 610
       Height = 221
       Align = alBottom
@@ -43,82 +43,82 @@ object ygxxglfrm: Tygxxglfrm
       TabOrder = 0
       object dbgrd1: TDBGrid
         Left = 2
-        Top = 14
+        Top = 17
         Width = 606
-        Height = 205
+        Height = 202
         Align = alClient
         DataSource = DM1.ds2
         TabOrder = 0
         TitleFont.Charset = ANSI_CHARSET
         TitleFont.Color = clWindowText
         TitleFont.Height = -12
-        TitleFont.Name = #23435#20307
+        TitleFont.Name = '??'
         TitleFont.Style = []
         Columns = <
           item
             Expanded = False
             FieldName = 'ygbm'
-            Title.Caption = #21592#24037#32534#30721
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'ygmc'
-            Title.Caption = #21592#24037#21517#31216
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'pyjm'
-            Title.Caption = #32844#21153
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'xl'
-            Title.Caption = #23398#21382
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'byyx'
-            Title.Caption = #27605#19994#38498#26657
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dh'
-            Title.Caption = #30005#35805
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dz'
-            Title.Caption = #22320#22336
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'yb'
-            Title.Caption = #37038#32534
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dzyj'
-            Title.Caption = #30005#23376#37038#20214
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'xsrw'
-            Title.Caption = #38144#21806#20219#21153
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'bz'
-            Title.Caption = #22791#27880
+            Title.Caption = '??'
             Visible = True
           end>
       end
@@ -129,14 +129,14 @@ object ygxxglfrm: Tygxxglfrm
       Width = 607
       Height = 45
       Anchors = [akLeft, akTop, akRight]
-      Caption = #25805#20316#23548#33322
+      Caption = '????'
       TabOrder = 1
       object RzToolbarButton1: TRzToolbarButton
         Left = 543
         Top = 12
         Width = 55
         Height = 27
-        Caption = #25171#21360
+        Caption = '??'
         OnClick = RzToolbarButton1Click
         HotNumGlyphs = 0
       end
@@ -147,16 +147,16 @@ object ygxxglfrm: Tygxxglfrm
         Height = 27
         DataSource = DM1.ds2
         Hints.Strings = (
-          #35760#24405#39318
-          #19978#19968#26465
-          #19979#19968#26465
-          #35760#24405#23614
-          #25554#20837
-          #21024#38500
-          #32534#36753
-          #25552#20132
-          #21462#28040
-          #21047#26032)
+          '???'
+          '???'
+          '???'
+          '???'
+          '??'
+          '??'
+          '??'
+          '??'
+          '??'
+          '??')
         BorderOuter = fsNone
         Color = clInactiveBorder
         Ctl3D = True
@@ -172,108 +172,108 @@ object ygxxglfrm: Tygxxglfrm
       Width = 608
       Height = 132
       Anchors = [akLeft, akTop, akRight]
-      Caption = #20449#24687#24405#20837
+      Caption = '????'
       TabOrder = 2
       object RzLabel1: TRzLabel
         Left = 10
         Top = 25
-        Width = 54
-        Height = 12
-        Caption = #21592#24037#32534#30721':'
+        Width = 31
+        Height = 15
+        Caption = '????:'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel2: TRzLabel
         Left = 138
         Top = 24
-        Width = 54
-        Height = 12
-        Caption = #21592#24037#21517#31216':'
+        Width = 31
+        Height = 15
+        Caption = '????:'
       end
       object RzLabel3: TRzLabel
         Left = 23
         Top = 52
-        Width = 30
-        Height = 12
-        Caption = #32844#21153':'
+        Width = 17
+        Height = 15
+        Caption = '??:'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel4: TRzLabel
         Left = 149
         Top = 52
-        Width = 30
-        Height = 12
-        Caption = #23398#21382':'
+        Width = 17
+        Height = 15
+        Caption = '??:'
       end
       object RzLabel5: TRzLabel
         Left = 10
         Top = 77
-        Width = 54
-        Height = 12
-        Caption = #27605#19994#38498#26657':'
+        Width = 31
+        Height = 15
+        Caption = '????:'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = #23435#20307
+        Font.Name = '??'
         Font.Style = []
         ParentFont = False
       end
       object RzLabel6: TRzLabel
         Left = 22
         Top = 105
-        Width = 30
-        Height = 12
-        Caption = #30005#35805':'
+        Width = 17
+        Height = 15
+        Caption = '??:'
       end
       object RzLabel7: TRzLabel
         Left = 297
         Top = 24
-        Width = 30
-        Height = 12
-        Caption = #22320#22336':'
+        Width = 17
+        Height = 15
+        Caption = '??:'
       end
       object RzLabel8: TRzLabel
         Left = 273
         Top = 52
-        Width = 54
-        Height = 12
-        Caption = #30005#23376#37038#20214':'
+        Width = 31
+        Height = 15
+        Caption = '????:'
       end
       object RzLabel9: TRzLabel
         Left = 297
         Top = 99
-        Width = 30
-        Height = 12
-        Caption = #22791#27880':'
+        Width = 17
+        Height = 15
+        Caption = '??:'
       end
       object lbl1: TLabel
         Left = 272
         Top = 76
-        Width = 54
-        Height = 12
-        Caption = #38144#21806#20219#21153':'
+        Width = 31
+        Height = 15
+        Caption = '????:'
       end
       object lbl2: TLabel
         Left = 397
         Top = 75
-        Width = 60
-        Height = 12
-        Caption = #21333#20301'('#19975#20803')'
+        Width = 36
+        Height = 15
+        Caption = '??(??)'
       end
       object RzDBEdit1: TRzDBEdit
         Left = 66
         Top = 19
         Width = 57
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'ygbm'
         TabOrder = 0
@@ -282,7 +282,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 194
         Top = 20
         Width = 57
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'ygmc'
         TabOrder = 1
@@ -291,7 +291,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 66
         Top = 49
         Width = 57
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'pyjm'
         TabOrder = 2
@@ -300,7 +300,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 193
         Top = 48
         Width = 57
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'xl'
         TabOrder = 3
@@ -309,7 +309,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 66
         Top = 73
         Width = 186
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'byyx'
         TabOrder = 4
@@ -318,7 +318,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 66
         Top = 99
         Width = 185
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'dh'
         TabOrder = 5
@@ -327,7 +327,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 331
         Top = 20
         Width = 257
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'dz'
         TabOrder = 6
@@ -336,7 +336,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 331
         Top = 48
         Width = 152
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'dzyj'
         TabOrder = 7
@@ -345,7 +345,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 331
         Top = 95
         Width = 152
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'bz'
         TabOrder = 9
@@ -354,7 +354,7 @@ object ygxxglfrm: Tygxxglfrm
         Left = 331
         Top = 71
         Width = 62
-        Height = 20
+        Height = 23
         DataSource = DM1.ds2
         DataField = 'xsrw'
         TabOrder = 8
@@ -367,7 +367,7 @@ object ygxxglfrm: Tygxxglfrm
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
     PreviewOptions.Zoom = 1.000000000000000000
-    PrintOptions.Printer = #39044#35774
+    PrintOptions.Printer = '??'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 38751.556271527800000000
     ReportOptions.LastChange = 38751.562099930500000000
@@ -463,11 +463,11 @@ object ygxxglfrm: Tygxxglfrm
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
           Font.Height = -24
-          Font.Name = #23435#20307
+          Font.Name = '??'
           Font.Style = [fsBold, fsUnderline]
           HAlign = haCenter
           Memo.UTF8 = (
-            #37723'?  '#23480'?  '#29863'?  '#37826'?')
+            '')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -502,7 +502,7 @@ object ygxxglfrm: Tygxxglfrm
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft]
           Memo.UTF8 = (
-            #32514#26667#29212)
+            '???')
           ParentFont = False
         end
         object Memo4: TfrxMemoView
@@ -517,7 +517,7 @@ object ygxxglfrm: Tygxxglfrm
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft]
           Memo.UTF8 = (
-            #37723#27194#20240#37722#23943#1054)
+            '??????')
           ParentFont = False
         end
         object Memo5: TfrxMemoView
@@ -532,7 +532,7 @@ object ygxxglfrm: Tygxxglfrm
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft]
           Memo.UTF8 = (
-            #37922#20291#30269)
+            '???')
           ParentFont = False
         end
         object Memo6: TfrxMemoView
@@ -547,7 +547,7 @@ object ygxxglfrm: Tygxxglfrm
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft]
           Memo.UTF8 = (
-            #37734#26495#28483)
+            '???')
           ParentFont = False
         end
         object Memo7: TfrxMemoView
@@ -562,7 +562,7 @@ object ygxxglfrm: Tygxxglfrm
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft]
           Memo.UTF8 = (
-            #37922#38747#29913#38317#57787#27426)
+            '??????')
           ParentFont = False
         end
         object Memo8: TfrxMemoView
@@ -577,7 +577,7 @@ object ygxxglfrm: Tygxxglfrm
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft]
           Memo.UTF8 = (
-            #28598#22248#25950)
+            '???')
           ParentFont = False
         end
         object Line2: TfrxLineView
@@ -747,7 +747,7 @@ object ygxxglfrm: Tygxxglfrm
           Height = 22.677180000000000000
           HAlign = haRight
           Memo.UTF8 = (
-            #32471'?[Page#]'#26916'?')
+            '')
         end
       end
     end

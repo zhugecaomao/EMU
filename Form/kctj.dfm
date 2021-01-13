@@ -3,7 +3,7 @@ object kctjfrm: Tkctjfrm
   Top = 161
   Width = 696
   Height = 480
-  Caption = #24211#23384#32479#35745
+  Caption = '????'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,30 +15,30 @@ object kctjfrm: Tkctjfrm
   OnCreate = FormCreate
   DesignSize = (
     680
-    442)
+    441)
   PixelsPerInch = 96
   TextHeight = 13
   object grp1: TGroupBox
     Left = 0
     Top = 0
     Width = 680
-    Height = 442
+    Height = 441
     Align = alClient
     Anchors = [akLeft, akRight, akBottom]
-    Caption = #24211#23384#32479#35745
+    Caption = '????'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
-    Font.Name = #23435#20307
+    Font.Name = '??'
     Font.Style = []
     ParentFont = False
     TabOrder = 0
     DesignSize = (
       680
-      442)
+      441)
     object grp2: TGroupBox
       Left = 2
-      Top = 109
+      Top = 108
       Width = 676
       Height = 331
       Align = alBottom
@@ -46,9 +46,9 @@ object kctjfrm: Tkctjfrm
       TabOrder = 0
       object dbgrd1: TDBGrid
         Left = 2
-        Top = 14
+        Top = 17
         Width = 672
-        Height = 315
+        Height = 312
         Align = alClient
         DataSource = DM1.ds9
         Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit]
@@ -57,55 +57,55 @@ object kctjfrm: Tkctjfrm
         TitleFont.Charset = ANSI_CHARSET
         TitleFont.Color = clWindowText
         TitleFont.Height = -12
-        TitleFont.Name = #23435#20307
+        TitleFont.Name = '??'
         TitleFont.Style = []
         Columns = <
           item
             Expanded = False
             FieldName = 'ldrq'
-            Title.Caption = #20837#24211#26102#38388
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'spbm'
-            Title.Caption = #21830#21697#32534#30721
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'spmc'
-            Title.Caption = #21830#21697#21517#31216
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'gg'
-            Title.Caption = #35268#26684
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'xh'
-            Title.Caption = #22411#21495
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'kcsl'
-            Title.Caption = #24211#23384#25968#37327
+            Title.Caption = '????'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'dw'
-            Title.Caption = #21333#20301
+            Title.Caption = '??'
             Visible = True
           end
           item
             Expanded = False
             FieldName = 'kcje'
-            Title.Caption = #24211#23384#37329#39069
+            Title.Caption = '????'
             Visible = True
           end>
       end
@@ -116,7 +116,7 @@ object kctjfrm: Tkctjfrm
       Width = 679
       Height = 49
       Anchors = [akLeft, akTop, akRight]
-      Caption = #26465#20214#24405#20837
+      Caption = '????'
       TabOrder = 1
       object lbl1: TLabel
         Left = 112
@@ -129,7 +129,7 @@ object kctjfrm: Tkctjfrm
         Left = 16
         Top = 16
         Width = 89
-        Caption = #32479#35745#24211#23384
+        Caption = '????'
         TabOrder = 0
         OnClick = RzBitBtn1Click
         Glyph.Data = {
@@ -193,7 +193,7 @@ object kctjfrm: Tkctjfrm
     Width = 679
     Height = 49
     Anchors = [akLeft, akTop, akRight]
-    Caption = #25805#20316#23548#34892
+    Caption = '????'
     TabOrder = 1
     object RzLabel1: TRzLabel
       Left = 431
@@ -202,11 +202,11 @@ object kctjfrm: Tkctjfrm
       Height = 32
       Align = alRight
       AutoSize = False
-      Caption = #27880#24847':'#19981#21040#19975#19981#24471#20197#30340#26102#20505#19981#21040#20462#25913#24211#23384#20449#24687','#13#10'     '#21363#20351#20462#25913#20063#19968#23450#35201#20808#36827#34892#22791#20221#25968#25454'!'#20999#35760'!'
+      Caption = '??:?????????????????,'#13#10'     ???????????????!??!'
       Font.Charset = ANSI_CHARSET
       Font.Color = clBlue
       Font.Height = -12
-      Font.Name = #23435#20307
+      Font.Name = '??'
       Font.Style = []
       ParentFont = False
     end
@@ -215,11 +215,11 @@ object kctjfrm: Tkctjfrm
       Top = 17
       Width = 34
       Height = 25
-      Caption = #25171#21360
+      Caption = '??'
       Font.Charset = ANSI_CHARSET
       Font.Color = clWindowText
       Font.Height = -12
-      Font.Name = #23435#20307
+      Font.Name = '??'
       Font.Style = []
       ParentFont = False
       OnClick = RzToolbarButton1Click

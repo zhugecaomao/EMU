@@ -5,6 +5,7 @@ uses
   Windows,
   Controls,
   Messages,
+  FixChnGarbledChars in 'Form\FixChnGarbledChars.pas',
   main in 'Form\main.pas' {mainfrm},
   dm in 'Form\dm.pas' {DM1: TDataModule},
   login in 'Form\login.pas' {loginfrm},
@@ -78,7 +79,7 @@ begin
         {10.2 ×°ÔØÖ÷´°Ìå}
         UpdateLoadStatus('Loading Startup Parameters', 5);
         Application.CreateForm(Tmainfrm, mainfrm);
-  UpdateLoadStatus('Loading Main Form', 10);
+        UpdateLoadStatus('Loading Main Form', 10);
         Application.CreateForm(Tloginfrm, loginfrm);
         UpdateLoadStatus('Loading Login Form', 15);
         Application.CreateForm(TDM1, DM1);
